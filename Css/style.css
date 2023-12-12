@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: #854D27;
+}
+h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.8;
+    color: #545454;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bg-header {
+    background: url(../images/bg.jpg);
+    /* https://www.freepik.com/free-photo/flat-lay-nacho-chips-potato-chips-with-copy-space_8480343.htm#query=snack%20background&position=19&from_view=keyword&track=ais */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 15px;
+    margin: auto;
+    text-align: center
+}
+
+.bg-header .innerd-div {
+    width: 50%;
+}
+
+.innerd-div p {
+    font-size: 18px;
+}
+
+main .section-space {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-3 {
+    flex: 0 0 33%;
+    width: 33%;
+    padding: 0 15px;
+}
+
+.col-2 {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #854D27;
+    color: #ffffff;
+    border: 1px solid #854D27;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+.img-container {
+    border: 1px solid #eeeeee;
+    margin-bottom: 15px;
+}
+
+img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.about-sec {
+    align-items: center;
+}
+
+.blog a {
+    display: inline-block;
+    color: #854D27;
+    font-weight: 500;
+    font-weight: 600;
+}
+
+.blog a:hover {
+    color: #000000;
+}
+
+nav .logo h2,
+nav ul {
+    margin: 0;
+}
+
+nav .logo,
+nav ul {
+    display: inline-block;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.wrapper-text {
+    padding: 15px;
+}
+
+.wrapper-text h3 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+footer {
+    background-color: #854D27;
+    padding: 30px 0 10px;
+    margin-top: 20px;
+    color: #ddd;
+    text-align: center;
+}
+
+footer h3 {
+    text-transform: uppercase;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer ul li a {
+    color: #ddd;
+}
+
+#copyright {
+    color: #ddd;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid #935c37;
+    padding-top: 20px;
+}
+
+.center-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text h2 {
+    margin-bottom: 0;
+}
+
+.center-text p {
+    margin-top: 10px;
+}
+
+#faqs {
+    width: 60%;
+    margin: auto;
+}
+
+#faqs p {
+    margin: 0;
+}
+
+/* slider */
+
+
+#image {
+    height: 250px;
+    margin-bottom: 1em;
+    margin-left: 105px;
+}
+
+/* the styles for the carousel */
+.button_panel {
+    height: 125px;
+    padding: 50px 15px;
+    float: left;
+}
+
+.button_panel img {
+    width: 25px;
+    height: 25px;
+}
+
+#display_panel {
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    height: 125px;
+}
+
+#image_list {
+    position: relative;
+    left: 0px;
+    width: 900px;
+    list-style: none;
+}
+
+#image_list li {
+    float: left;
+    width: 100px;
+}
+
+#image_list li img {
+    width: 95px;
+
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 25px 15px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ffb583;
+    background: #fff8f3;
+
+}
+
+legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+label {
+    display: inline-block;
+    width: 6em;
+    margin-bottom: 10px;
+}
+
+#submit {
+    margin-left: 0;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #eee;
+    margin-bottom: 0;
+}
+
+fieldset span {
+    color: #854d27;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+div.hide {
+    display: none;
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.home ul li{
+    display: inline;
+}
+.home ul li span{
+    text-transform: uppercase;
+    background: #854D27;
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
+}
+  
+
+  /*haniben*/
+
+  /* Styles for Frequently Asked Questions section */
+.faq {
+    margin-bottom: 50px;
+  }
+.faq .faq-item {
+    margin-bottom: 20px;
+  }
+  .faq .faq-item h3 {
+    cursor: pointer;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 30px;
+    position: relative;
+  }
+  .faq .faq-item h3 .icon {
+    color: #999;
+    font-size: 24px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .faq .faq-item.active h3 .icon {
+    color: #333;
+  }
+  .faq .faq-item .answer {
+    display: none;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding-left: 30px;
+  }
+  .faq .faq-item.active .answer {
+    display: block;
+  }
+  
+  
+  
+  /* Styles for Testimonials section */
+
+  .testimonial-slide {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+  .testimonial-slide .testimonial {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  .testimonial-slide .active {
+    left: 0;
+  }
+  .testimonial-slide img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  
+  .testimonial-dots {
+    text-align: center;
+  }
+  .testimonial-dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .testimonial-dots .active {
+    background-color: black;
+  }

@@ -1,1 +1,1 @@
-# Javascriptcollege
+# javascript-College

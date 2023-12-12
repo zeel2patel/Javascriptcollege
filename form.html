@@ -1,0 +1,105 @@
+<!--Patel Zeel
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Receipe hub</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel=icon type=image/ico href="images/1.png"> 
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Receipe</h2>
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">menu</a>
+                </li>
+                <li>
+                    <a href="form.html">form</a>
+                </li>
+                <li>
+                    <a href="About.html">About us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bg-header">
+        <div class="container">
+            <h1>Want to submit your recipes?</h1>
+            <p>These recipe aggregator sites help recipe creators by<br> amplifying their content to new audiences and driving <br>traffic back to their blogs.
+            </p>
+        </div>
+    </header>
+    <main class="home">
+        <div class="section-space">
+            <div class="container-f">
+                <div class="form-container">
+                  <h2>Add Recipe</h2>
+                  <form id="recipe-form">
+                    <label for="recipe-name">Name:</label>
+                    <input type="text" id="recipe-name" name="recipe-name">
+                    
+                    <label for="recipe-ingredients">Ingredients:</label>
+                    <textarea id="recipe-ingredients" name="recipe-ingredients"></textarea>
+                    
+                    <label for="recipe-instructions">Instructions:</label>
+                    <textarea id="recipe-instructions" name="recipe-instructions"></textarea>
+                    
+                    <button type="submit">Add Recipe</button>
+                  </form>
+                </div>
+                
+                <div class="list-container">
+                  <h2>Recipes</h2>
+                  <ul id="recipes"></ul>
+                </div>
+              </div>
+              
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">menu</a>
+                        </li>
+                        <li>
+                            <a href="form.html">form</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p id="copyright">Copyright &copy;2023 Receipe hub</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>

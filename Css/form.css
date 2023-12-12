@@ -1,0 +1,47 @@
+  /*Patel Zeel*/
+
+.container-f {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .list-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+  }
+  
+  #recipes {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #recipes li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #854D27;
+    color: #ffffff;
+    border: 1px solid #854D27;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
